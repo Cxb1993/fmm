@@ -1,0 +1,36 @@
+MODULES = \
+	precision.f90\
+	utils.f90\
+	TypeDef.f90\
+	Interfaces.f90
+
+f90FILES = \
+	test_FMM.f90\
+	FMM.f90\
+	disort.f90\
+	CompOptimalImage.f90\
+	SimNewImage.f90\
+	getNewIt.f90\
+	UpdateSA.f90\
+	SimVoxel.f90\
+	getNeighborhood.f90\
+	CompObjFun.f90\
+	CompChiDist.f90\
+	CompDataFit.f90\
+	InferTrainTree.f90\
+	UpdateTrainTree.f90\
+	InferTree.f90\
+	UpdateTree.f90\
+	wrapUpdateTree.f90\
+	UpdateTreeBoundary.f90\
+	wrapUpdateTreeBoundary.f90\
+	ExtendTree.f90\
+	CopyTree.f90\
+	ShapeTree.f90\
+	getCPDF.f90\
+	GrowTree.f90\
+	CenterCount.f90\
+	AddCount.f90\
+	SubtractCount.f90\
+	DeallocateTree.f90\
+	Tree2Hist.f90
